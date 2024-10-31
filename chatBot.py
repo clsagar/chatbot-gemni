@@ -1,14 +1,6 @@
-from tkinter import image_names
-
-
-from streamlit import text_input, header
-
-
-
 import streamlit as st
-import os
 import google.generativeai as genai
-from PIL import Image
+
 
 genai.configure(api_key = st.secrets['Your-API-KEY'])
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
