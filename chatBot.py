@@ -1,9 +1,9 @@
 from tkinter import image_names
 
-from dotenv import load_dotenv
+
 from streamlit import text_input, header
 
-load_dotenv()
+
 
 import streamlit as st
 import os
